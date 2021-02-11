@@ -1,33 +1,38 @@
 <!DOCTYPE html>
-<html>
+<html lang='en'>
 <head>
     <Title>Google</Title>
 </head>
 
 <style>
-    .searchcentered {
+    .searchbar {
+    height: 40px;
     position: fixed;
-    top: 50%;
+    top: 40%;
     left: 50%;
     margin-top: -50px;
     margin-left: -300px;
+    border: 1px solid gray;
+    border-radius: 20px;
     }
     .imgcenter{
-    position: relative;
-    top: -75px;
-    right: -70px;
+    position: fixed;
+    top: 27%;
+    left: 58%;
+    margin-top: -50px;
+    margin-left: -300px;
     }
-
+}
 
 </style>
 
 
 <body>
-    <div class='searchcentered'>
-        <input type='search' class='centered' size='75px'>
-        <div class='imgcenter'>
-            <img src='https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png'alt='Google logo' class='imgcenter'>
-        </div>
+    <div>
+        <input type='searchbar' class='searchbar' size='75px'>
+    </div>
+    <div class='imgcenter'>
+        <img src='https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png'alt='Google logo' class='imgcenter'>
     </div>
 
 
