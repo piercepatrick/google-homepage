@@ -5,6 +5,35 @@
 </head>
 
 <style>
+    ul {
+        font-size: 13px;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+        font-weight: thick;
+    }
+    li {
+        display: inline;
+    }
+    .leftnav {
+        font-weight: lighter;
+        position: relative;
+        top: 20px;
+        right: -30px;
+    }
+    .gmailnav {
+        font-weight: lighter;
+        position: relative;
+        right: -1580px;
+        top: 20px;
+    }
+    .imagesnav {
+        font-weight: lighter;
+        position: relative;
+        right: -1600px;
+        top: 20px;
+    }
     .searchbar {
     height: 40px;
     position: fixed;
@@ -28,6 +57,15 @@
 
 
 <body>
+    <ul>
+        <div>
+            <li><a class = 'leftnav'>About</a></li>
+            <li><a  class = 'leftnav'>Store</a></li>
+            <li><a class = 'gmailnav'>Gmail</a></li>
+            <li><a class='imagesnav'>Images</a></li>  
+        </div>
+    </ul>
+
     <div>
         <input type='searchbar' class='searchbar' size='75px'>
     </div>
