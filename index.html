@@ -6,34 +6,24 @@
 
 <style>
     ul {
-        font-size: 13px;
+        font-size: 12px;
         list-style-type: none;
         margin: 0;
         padding: 0;
         font-family: sans-serif;
-        font-weight: thick;
     }
     li {
+        position: relative;
+        right: -10px;
+        top: 10px;
         display: inline;
+        padding: 5px;
     }
-    .leftnav {
-        font-weight: lighter;
+    .rightnav {
         position: relative;
-        top: 20px;
-        right: -30px;
+        right: -1550px;
     }
-    .gmailnav {
-        font-weight: lighter;
-        position: relative;
-        right: -1580px;
-        top: 20px;
-    }
-    .imagesnav {
-        font-weight: lighter;
-        position: relative;
-        right: -1600px;
-        top: 20px;
-    }
+
     .searchbar {
     height: 40px;
     position: fixed;
@@ -58,11 +48,11 @@
 
 <body>
     <ul>
-        <div>
-            <li><a class = 'leftnav'>About</a></li>
-            <li><a  class = 'leftnav'>Store</a></li>
-            <li><a class = 'gmailnav'>Gmail</a></li>
-            <li><a class='imagesnav'>Images</a></li>  
+        <div id='menu'>
+            <li><a>About</a></li>
+            <li><a>Store</a></li>
+            <li><a class='rightnav'>Gmail</a></li>
+            <li><a  class='rightnav'>Images</a></li>  
         </div>
     </ul>
 
